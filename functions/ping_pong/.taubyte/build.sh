@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 . /utils/wasm.sh
 
 build "${FILENAME}"
